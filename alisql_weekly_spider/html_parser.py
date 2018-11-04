@@ -39,7 +39,7 @@ class HtmlParser(object):
                 tx=subsoup.find('h3').get_text().strip().split('\n')
                 w.weekly_title=str(i)+"."+tx[len(tx)-1].strip()
                 i+=1
-                w.weekly_link= page_url+subsoup.find('a')["href"][len("/monthly/2016/08/"):]
+                w.weekly_link= page_url+subsoup.find('a')["href"][len("/monthly/2016/08"):]
                 #print(w.weekly_title)
                 #print(w.weekly_link)
                 m.add(w)
