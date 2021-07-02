@@ -7,3 +7,7 @@
 
 阿里数据库内核组月报地址：
 http://mysql.taobao.org/monthly/
+
+## 使用
+
+使用IntelliJ IDEA 社区版 导入该python项目，然后run main文件，即可。
