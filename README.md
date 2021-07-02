@@ -10,4 +10,7 @@ http://mysql.taobao.org/monthly/
 
 ## 使用
 
-使用IntelliJ IDEA 社区版 导入该python项目，然后run main文件，即可。
+
+- ubuntu16.04 环境下执行 `python3 alisql_weekly_spider/main.py` 即可
+
+- 使用IntelliJ IDEA 社区版 导入该python项目，然后run main文件，即可。

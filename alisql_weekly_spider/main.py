@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 ###############################
 # 程序说明：
 # 爬取阿里巴巴数据库内核组月报的文章
@@ -8,11 +8,15 @@
 # http://mysql.taobao.org/monthly/
 ###############################
 
-# -*- coding: utf-8 -*-
 
-from alisql_weekly_spider.monthly import monthly
-from alisql_weekly_spider.html_downloader import HtmlDownloader
-from alisql_weekly_spider.html_parser import HtmlParser
+
+# from alisql_weekly_spider.monthly import monthly
+# from alisql_weekly_spider.html_downloader import HtmlDownloader
+# from alisql_weekly_spider.html_parser import HtmlParser
+
+from monthly import monthly
+from html_downloader import HtmlDownloader
+from html_parser import HtmlParser
 
 # 单线程的爬虫，因为内容并不多
 class Spider:

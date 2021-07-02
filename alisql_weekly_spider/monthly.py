@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 # 周报类
 class weekly:
     # 周报标题

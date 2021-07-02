@@ -1,10 +1,12 @@
-
+# -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup
 from urllib import parse
 #引入正则模块
 import re
 
-from alisql_weekly_spider.monthly import monthly,weekly
+from monthly import monthly
+from monthly import weekly
+#from alisql_weekly_spider.monthly import monthly,weekly
 
 # 解析网页中的内容
 class HtmlParser(object):
