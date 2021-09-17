@@ -53,7 +53,7 @@ class HtmlParser(object):
     # 解析
     def parse(self, page_url, html_cont,open):
         if page_url is None or html_cont is None:
-            return
+            return None,None
             # print("begin parse...")
         soup = BeautifulSoup(html_cont, 'html.parser')
         print("begin get_urls...")

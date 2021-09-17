@@ -35,8 +35,8 @@ class Spider:
         for url in urls:
             cont = downloader.download(url)
             newurls, month = parser.parse(url, cont,False)
-
-            result+=month.getMonthly()
+            if month != None:
+                result+=month.getMonthly()
             month=None
             #print(month.getMonthly())
 
